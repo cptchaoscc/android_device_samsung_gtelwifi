@@ -1,0 +1,3 @@
+add_lunch_combo lineage_gtelwifi-eng
+add_lunch_combo lineage_gtelwifi-userdebug
+add_lunch_combo lineage_gtelwifi-user

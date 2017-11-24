@@ -1,0 +1,62 @@
+# Audio
+-lib/libatchannel.so
+vendor/firmware/vbc_eq
+
+# Bluetooth
+vendor/firmware/BCM43430A1_001.002.009.0022.0000_Samsung_TabE_SM-T561_TEST_ONLY.hcd
+
+# Camera
+lib/hw/camera.sc8830.so
+lib/libisp.so
+lib/libuvdenoise.so
+lib/libmorpho_easy_hdr.so
+lib/libsecnativefeature.so
+
+# DRM
+vendor/lib/libwvdrm_L3.so
+vendor/lib/libWVStreamControlAPI_L3.so
+vendor/lib/mediadrm/libwvdrmengine.so
+
+# Graphics
+lib/egl/libGLES_mali.so
+lib/hw/gralloc.sc8830.so
+lib/hw/hwcomposer.sc8830.so
+lib/hw/sprd_gsp.sc8830.so
+lib/libion.so
+lib/libbinder.so
+
+# Media
+lib/libstagefrighthw.so
+lib/libstagefright_sprd_aacdec.so
+lib/libstagefright_sprd_h264dec.so
+lib/libstagefright_sprd_h264enc.so
+lib/libstagefright_sprd_mp3dec.so
+lib/libstagefright_sprd_mpeg4dec.so
+lib/libstagefright_sprd_mpeg4enc.so
+lib/libstagefright_sprd_soft_h264dec.so
+lib/libstagefright_sprd_soft_mpeg4dec.so
+lib/libstagefright_sprd_vpxdec.so
+
+# RIL
+bin/rild
+bin/refnotify
+bin/modemd
+bin/nvitemd
+bin/phoneserver
+lib/libreference-ril.so
+lib/libreference-ril_sp.so
+lib/libril.so
+lib/libsecril-client.so
+
+# Wifi
+etc/wifi/bcmdhd_apsta.bin
+etc/wifi/bcmdhd_mfg.bin
+etc/wifi/bcmdhd_sta.bin
+
+# Misc
+/bin/calibration_init
+/bin/ext_data.sh
+/bin/ext_kill.sh
+/bin/ext_symlink.sh
+/bin/inputfreq.sh
+/bin/prepare_param.sh
