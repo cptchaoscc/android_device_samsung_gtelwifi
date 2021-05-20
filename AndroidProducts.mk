@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_gtelwifi.mk
+    $(LOCAL_DIR)/arrow_gtelwifi.mk
