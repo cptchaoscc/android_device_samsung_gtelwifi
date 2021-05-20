@@ -2,14 +2,14 @@
 PRODUCT_RELEASE_NAME := gtelwifi
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/arrow/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/gtelwifi/device_gtelwifi.mk)
+$(call inherit-product, device/samsung/gtelwifi/arrow_gtelwifi.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gtelwifi
-PRODUCT_NAME := lineage_gtelwifi
+PRODUCT_NAME := arrow_gtelwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := gtelwifi
 PRODUCT_MANUFACTURER := samsung

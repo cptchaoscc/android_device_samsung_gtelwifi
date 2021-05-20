@@ -51,7 +51,7 @@ TARGET_CUSTOM_DTBTOOL := dtbToolSPRD
 
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_CONFIG := cm_gtelwifi_defconfig
+TARGET_KERNEL_CONFIG := gtelwifi_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gtelwifi
 
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -131,7 +131,8 @@ BOARD_HAVE_SAMSUNG_WIFI := true
 EXTENDED_FONT_FOOTPRINT := true
 
 # Use dmalloc() for such low memory devices like us
-MALLOC_IMPL := dlmalloc
+#MALLOC_IMPL := dlmalloc
+MALLOC_SVELTE := true
 BOARD_USES_LEGACY_MMAP := true
 
 # Enable dex-preoptimization to speed up the first boot sequence

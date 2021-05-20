@@ -189,7 +189,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     persist.service.adb.enable=1 \
     ro.boot.selinux=permissive
 
-PRODUCT_NAME := full_gtelwifi
+PRODUCT_NAME := arrow_gtelwifi
 PRODUCT_DEVICE := gtelwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
